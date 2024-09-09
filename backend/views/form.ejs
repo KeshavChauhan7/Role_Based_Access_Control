@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reset Password</title>
+  </head>
+  <body>
+    <div id="true"></div>
+    <div id="false"></div>
+    <input id="new" type="text" placeholder="enter new password" />
+    <button id="save">Save</button>
+    <script>
+      const button = document.getElementById("save");
+      button.addEventListener("click", save);
+      async function save() {
+        let newpass = document.getElementById("new");
+        const response = await fetch("<%= process.env.BACKEND_URL %>password", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            password: newpass.value,
+            token: "<%= token %>",
+          }),
+        });
+        const resu = await response.json();
+        if (resu.status) {
+          let div = document.getElementById("true");
+          div.innerText = "Password is changed";
+          setTimeout(() => {
+            window.location.reload();
+          }, 4000);
+        } else {
+          let div = document.getElementById("false");
+          div.innerText = resu.error;
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+error: getaddrinfo ENOTFOUND ac-avkqsyo-shard-00-01.c66r9h3.mongodb.net {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":"7fffffff0000000000000094","maxSetVersion":4,"servers":{},"setName":"atlas-q4dk6x-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}}
+error: sampleFile.mv is not a function
+error: sampleFile.mv is not a function
+error: getaddrinfo ENOTFOUND ac-avkqsyo-shard-00-00.c66r9h3.mongodb.net {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":"7fffffff0000000000000094","maxSetVersion":4,"servers":{},"setName":"atlas-q4dk6x-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}}
+error: getaddrinfo ENOTFOUND ac-avkqsyo-shard-00-00.c66r9h3.mongodb.net {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":"7fffffff0000000000000094","maxSetVersion":4,"servers":{},"setName":"atlas-q4dk6x-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}}
+error: fs is not defined
+error: res.json is not a function
+error: res.json is not a function
+error: res.json is not a function
+error: Cannot set headers after they are sent to the client {"code":"ERR_HTTP_HEADERS_SENT"}
+error: Cannot set headers after they are sent to the client {"code":"ERR_HTTP_HEADERS_SENT"}
+error: Cannot set headers after they are sent to the client {"code":"ERR_HTTP_HEADERS_SENT"}
+error: Cannot set headers after they are sent to the client {"code":"ERR_HTTP_HEADERS_SENT"}
+error: Cannot set headers after they are sent to the client {"code":"ERR_HTTP_HEADERS_SENT"}
+error: Cannot set headers after they are sent to the client {"code":"ERR_HTTP_HEADERS_SENT"}
+error: Cannot set headers after they are sent to the client {"code":"ERR_HTTP_HEADERS_SENT"}
+error: Cannot set headers after they are sent to the client {"code":"ERR_HTTP_HEADERS_SENT"}
+error: Cannot set headers after they are sent to the client {"code":"ERR_HTTP_HEADERS_SENT"}
+error: Cannot set headers after they are sent to the client {"code":"ERR_HTTP_HEADERS_SENT"}
+error: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    path: '1688277296_Screenshot (31).png',\n" +
+  "    file_name: 'Screenshot (31).png',\n" +
+  '    type: undefined,\n' +
+  '    size: 95167,\n' +
+  '    createdAt: 1688277296,\n' +
+  '    expireIn: 1688363696,\n' +
+  "    id: 'adc20c88-7797-41ad-9d2c-d8747b1f08d3'\n" +
+  '  }\n' +
+  ']" (type string) at path "details.0" because of "CastError" {"kind":"[string]","path":"details.0","reason":{"kind":"string","message":"Cast to string failed for value \"{\n  path: '1688277296_Screenshot (31).png',\n  file_name: 'Screenshot (31).png',\n  type: undefined,\n  size: 95167,\n  createdAt: 1688277296,\n  expireIn: 1688363696,\n  id: 'adc20c88-7797-41ad-9d2c-d8747b1f08d3'\n}\" (type Object) at path \"details\"","name":"CastError","path":"details","reason":null,"stringValue":"\"{\n  path: '1688277296_Screenshot (31).png',\n  file_name: 'Screenshot (31).png',\n  type: undefined,\n  size: 95167,\n  createdAt: 1688277296,\n  expireIn: 1688363696,\n  id: 'adc20c88-7797-41ad-9d2c-d8747b1f08d3'\n}\"","value":{"createdAt":1688277296,"expireIn":1688363696,"file_name":"Screenshot (31).png","id":"adc20c88-7797-41ad-9d2c-d8747b1f08d3","path":"1688277296_Screenshot (31).png","size":95167},"valueType":"Object"},"stringValue":"\"[\\n' +\n  '  {\\n' +\n  \"    path: '1688277296_Screenshot (31).png',\\n\" +\n  \"    file_name: 'Screenshot (31).png',\\n\" +\n  '    type: undefined,\\n' +\n  '    size: 95167,\\n' +\n  '    createdAt: 1688277296,\\n' +\n  '    expireIn: 1688363696,\\n' +\n  \"    id: 'adc20c88-7797-41ad-9d2c-d8747b1f08d3'\\n\" +\n  '  }\\n' +\n  ']\"","value":"[\n  {\n    path: '1688277296_Screenshot (31).png',\n    file_name: 'Screenshot (31).png',\n    type: undefined,\n    size: 95167,\n    createdAt: 1688277296,\n    expireIn: 1688363696,\n    id: 'adc20c88-7797-41ad-9d2c-d8747b1f08d3'\n  }\n]","valueType":"string"}
+error: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    path: '1688277428_Screenshot (29).png',\n" +
+  "    file_name: 'Screenshot (29).png',\n" +
+  '    type: undefined,\n' +
+  '    size: 114234,\n' +
+  '    createdAt: 1688277428,\n' +
+  '    expireIn: 1688363828,\n' +
+  "    id: '2f53a383-b8c0-442b-ac68-12832a2547b3'\n" +
+  '  }\n' +
+  ']" (type string) at path "details.0" because of "CastError" {"kind":"[string]","path":"details.0","reason":{"kind":"string","message":"Cast to string failed for value \"{\n  path: '1688277428_Screenshot (29).png',\n  file_name: 'Screenshot (29).png',\n  type: undefined,\n  size: 114234,\n  createdAt: 1688277428,\n  expireIn: 1688363828,\n  id: '2f53a383-b8c0-442b-ac68-12832a2547b3'\n}\" (type Object) at path \"details\"","name":"CastError","path":"details","reason":null,"stringValue":"\"{\n  path: '1688277428_Screenshot (29).png',\n  file_name: 'Screenshot (29).png',\n  type: undefined,\n  size: 114234,\n  createdAt: 1688277428,\n  expireIn: 1688363828,\n  id: '2f53a383-b8c0-442b-ac68-12832a2547b3'\n}\"","value":{"createdAt":1688277428,"expireIn":1688363828,"file_name":"Screenshot (29).png","id":"2f53a383-b8c0-442b-ac68-12832a2547b3","path":"1688277428_Screenshot (29).png","size":114234},"valueType":"Object"},"stringValue":"\"[\\n' +\n  '  {\\n' +\n  \"    path: '1688277428_Screenshot (29).png',\\n\" +\n  \"    file_name: 'Screenshot (29).png',\\n\" +\n  '    type: undefined,\\n' +\n  '    size: 114234,\\n' +\n  '    createdAt: 1688277428,\\n' +\n  '    expireIn: 1688363828,\\n' +\n  \"    id: '2f53a383-b8c0-442b-ac68-12832a2547b3'\\n\" +\n  '  }\\n' +\n  ']\"","value":"[\n  {\n    path: '1688277428_Screenshot (29).png',\n    file_name: 'Screenshot (29).png',\n    type: undefined,\n    size: 114234,\n    createdAt: 1688277428,\n    expireIn: 1688363828,\n    id: '2f53a383-b8c0-442b-ac68-12832a2547b3'\n  }\n]","valueType":"string"}
+error: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    path: '1688277514_Screenshot (29).png',\n" +
+  "    file_name: 'Screenshot (29).png',\n" +
+  '    type: undefined,\n' +
+  '    size: 114234,\n' +
+  '    createdAt: 1688277514,\n' +
+  '    expireIn: 1688363914,\n' +
+  "    id: 'd4e22ee8-eb54-4070-b7b7-c4e2778728b9'\n" +
+  '  }\n' +
+  ']" (type string) at path "details.0" because of "CastError" {"kind":"[string]","path":"details.0","reason":{"kind":"string","message":"Cast to string failed for value \"{\n  path: '1688277514_Screenshot (29).png',\n  file_name: 'Screenshot (29).png',\n  type: undefined,\n  size: 114234,\n  createdAt: 1688277514,\n  expireIn: 1688363914,\n  id: 'd4e22ee8-eb54-4070-b7b7-c4e2778728b9'\n}\" (type Object) at path \"details\"","name":"CastError","path":"details","reason":null,"stringValue":"\"{\n  path: '1688277514_Screenshot (29).png',\n  file_name: 'Screenshot (29).png',\n  type: undefined,\n  size: 114234,\n  createdAt: 1688277514,\n  expireIn: 1688363914,\n  id: 'd4e22ee8-eb54-4070-b7b7-c4e2778728b9'\n}\"","value":{"createdAt":1688277514,"expireIn":1688363914,"file_name":"Screenshot (29).png","id":"d4e22ee8-eb54-4070-b7b7-c4e2778728b9","path":"1688277514_Screenshot (29).png","size":114234},"valueType":"Object"},"stringValue":"\"[\\n' +\n  '  {\\n' +\n  \"    path: '1688277514_Screenshot (29).png',\\n\" +\n  \"    file_name: 'Screenshot (29).png',\\n\" +\n  '    type: undefined,\\n' +\n  '    size: 114234,\\n' +\n  '    createdAt: 1688277514,\\n' +\n  '    expireIn: 1688363914,\\n' +\n  \"    id: 'd4e22ee8-eb54-4070-b7b7-c4e2778728b9'\\n\" +\n  '  }\\n' +\n  ']\"","value":"[\n  {\n    path: '1688277514_Screenshot (29).png',\n    file_name: 'Screenshot (29).png',\n    type: undefined,\n    size: 114234,\n    createdAt: 1688277514,\n    expireIn: 1688363914,\n    id: 'd4e22ee8-eb54-4070-b7b7-c4e2778728b9'\n  }\n]","valueType":"string"}
+error: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    path: '1688277577_Screenshot (31).png',\n" +
+  "    file_name: 'Screenshot (31).png',\n" +
+  '    type: undefined,\n' +
+  '    size: 95167,\n' +
+  '    createdAt: 1688277577,\n' +
+  '    expireIn: 1688363977,\n' +
+  "    id: 'e6bda00c-12eb-4636-aca9-a476353f8118'\n" +
+  '  }\n' +
+  ']" (type string) at path "details.0" because of "CastError" {"kind":"[string]","path":"details.0","reason":{"kind":"string","message":"Cast to string failed for value \"{\n  path: '1688277577_Screenshot (31).png',\n  file_name: 'Screenshot (31).png',\n  type: undefined,\n  size: 95167,\n  createdAt: 1688277577,\n  expireIn: 1688363977,\n  id: 'e6bda00c-12eb-4636-aca9-a476353f8118'\n}\" (type Object) at path \"details\"","name":"CastError","path":"details","reason":null,"stringValue":"\"{\n  path: '1688277577_Screenshot (31).png',\n  file_name: 'Screenshot (31).png',\n  type: undefined,\n  size: 95167,\n  createdAt: 1688277577,\n  expireIn: 1688363977,\n  id: 'e6bda00c-12eb-4636-aca9-a476353f8118'\n}\"","value":{"createdAt":1688277577,"expireIn":1688363977,"file_name":"Screenshot (31).png","id":"e6bda00c-12eb-4636-aca9-a476353f8118","path":"1688277577_Screenshot (31).png","size":95167},"valueType":"Object"},"stringValue":"\"[\\n' +\n  '  {\\n' +\n  \"    path: '1688277577_Screenshot (31).png',\\n\" +\n  \"    file_name: 'Screenshot (31).png',\\n\" +\n  '    type: undefined,\\n' +\n  '    size: 95167,\\n' +\n  '    createdAt: 1688277577,\\n' +\n  '    expireIn: 1688363977,\\n' +\n  \"    id: 'e6bda00c-12eb-4636-aca9-a476353f8118'\\n\" +\n  '  }\\n' +\n  ']\"","value":"[\n  {\n    path: '1688277577_Screenshot (31).png',\n    file_name: 'Screenshot (31).png',\n    type: undefined,\n    size: 95167,\n    createdAt: 1688277577,\n    expireIn: 1688363977,\n    id: 'e6bda00c-12eb-4636-aca9-a476353f8118'\n  }\n]","valueType":"string"}
+error: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    path: '1688277662_Screenshot (31).png',\n" +
+  "    file_name: 'Screenshot (31).png',\n" +
+  '    type: undefined,\n' +
+  '    size: 95167,\n' +
+  '    createdAt: 1688277662,\n' +
+  '    expireIn: 1688364062,\n' +
+  "    id: '280d1285-8bb5-45ed-9b02-9ea0bfaf1ea0'\n" +
+  '  }\n' +
+  ']" (type string) at path "details.0" because of "CastError" {"kind":"[string]","path":"details.0","reason":{"kind":"string","message":"Cast to string failed for value \"{\n  path: '1688277662_Screenshot (31).png',\n  file_name: 'Screenshot (31).png',\n  type: undefined,\n  size: 95167,\n  createdAt: 1688277662,\n  expireIn: 1688364062,\n  id: '280d1285-8bb5-45ed-9b02-9ea0bfaf1ea0'\n}\" (type Object) at path \"details\"","name":"CastError","path":"details","reason":null,"stringValue":"\"{\n  path: '1688277662_Screenshot (31).png',\n  file_name: 'Screenshot (31).png',\n  type: undefined,\n  size: 95167,\n  createdAt: 1688277662,\n  expireIn: 1688364062,\n  id: '280d1285-8bb5-45ed-9b02-9ea0bfaf1ea0'\n}\"","value":{"createdAt":1688277662,"expireIn":1688364062,"file_name":"Screenshot (31).png","id":"280d1285-8bb5-45ed-9b02-9ea0bfaf1ea0","path":"1688277662_Screenshot (31).png","size":95167},"valueType":"Object"},"stringValue":"\"[\\n' +\n  '  {\\n' +\n  \"    path: '1688277662_Screenshot (31).png',\\n\" +\n  \"    file_name: 'Screenshot (31).png',\\n\" +\n  '    type: undefined,\\n' +\n  '    size: 95167,\\n' +\n  '    createdAt: 1688277662,\\n' +\n  '    expireIn: 1688364062,\\n' +\n  \"    id: '280d1285-8bb5-45ed-9b02-9ea0bfaf1ea0'\\n\" +\n  '  }\\n' +\n  ']\"","value":"[\n  {\n    path: '1688277662_Screenshot (31).png',\n    file_name: 'Screenshot (31).png',\n    type: undefined,\n    size: 95167,\n    createdAt: 1688277662,\n    expireIn: 1688364062,\n    id: '280d1285-8bb5-45ed-9b02-9ea0bfaf1ea0'\n  }\n]","valueType":"string"}
+error: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    path: '1688278228_Screenshot (33).png',\n" +
+  "    file_name: 'Screenshot (33).png',\n" +
+  '    type: undefined,\n' +
+  '    size: 117734,\n' +
+  '    createdAt: 1688278228,\n' +
+  '    expireIn: 1688364628,\n' +
+  "    id: '19cbf173-7dd1-4470-97de-e0b14e4e4023'\n" +
+  '  }\n' +
+  ']" (type string) at path "details.0" because of "CastError" {"kind":"[string]","path":"details.0","reason":{"kind":"string","message":"Cast to string failed for value \"{\n  path: '1688278228_Screenshot (33).png',\n  file_name: 'Screenshot (33).png',\n  type: undefined,\n  size: 117734,\n  createdAt: 1688278228,\n  expireIn: 1688364628,\n  id: '19cbf173-7dd1-4470-97de-e0b14e4e4023'\n}\" (type Object) at path \"details\"","name":"CastError","path":"details","reason":null,"stringValue":"\"{\n  path: '1688278228_Screenshot (33).png',\n  file_name: 'Screenshot (33).png',\n  type: undefined,\n  size: 117734,\n  createdAt: 1688278228,\n  expireIn: 1688364628,\n  id: '19cbf173-7dd1-4470-97de-e0b14e4e4023'\n}\"","value":{"createdAt":1688278228,"expireIn":1688364628,"file_name":"Screenshot (33).png","id":"19cbf173-7dd1-4470-97de-e0b14e4e4023","path":"1688278228_Screenshot (33).png","size":117734},"valueType":"Object"},"stringValue":"\"[\\n' +\n  '  {\\n' +\n  \"    path: '1688278228_Screenshot (33).png',\\n\" +\n  \"    file_name: 'Screenshot (33).png',\\n\" +\n  '    type: undefined,\\n' +\n  '    size: 117734,\\n' +\n  '    createdAt: 1688278228,\\n' +\n  '    expireIn: 1688364628,\\n' +\n  \"    id: '19cbf173-7dd1-4470-97de-e0b14e4e4023'\\n\" +\n  '  }\\n' +\n  ']\"","value":"[\n  {\n    path: '1688278228_Screenshot (33).png',\n    file_name: 'Screenshot (33).png',\n    type: undefined,\n    size: 117734,\n    createdAt: 1688278228,\n    expireIn: 1688364628,\n    id: '19cbf173-7dd1-4470-97de-e0b14e4e4023'\n  }\n]","valueType":"string"}
+error: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    path: '1688278440_Screenshot (27).png',\n" +
+  "    file_name: 'Screenshot (27).png',\n" +
+  '    type: undefined,\n' +
+  '    size: 213649,\n' +
+  '    createdAt: 1688278440,\n' +
+  '    expireIn: 1688364840,\n' +
+  "    id: '34feb2ef-a098-4b23-9238-93bfa64c1d23'\n" +
+  '  }\n' +
+  ']" (type string) at path "details.0" because of "CastError" {"kind":"[string]","path":"details.0","reason":{"kind":"string","message":"Cast to string failed for value \"{\n  path: '1688278440_Screenshot (27).png',\n  file_name: 'Screenshot (27).png',\n  type: undefined,\n  size: 213649,\n  createdAt: 1688278440,\n  expireIn: 1688364840,\n  id: '34feb2ef-a098-4b23-9238-93bfa64c1d23'\n}\" (type Object) at path \"details\"","name":"CastError","path":"details","reason":null,"stringValue":"\"{\n  path: '1688278440_Screenshot (27).png',\n  file_name: 'Screenshot (27).png',\n  type: undefined,\n  size: 213649,\n  createdAt: 1688278440,\n  expireIn: 1688364840,\n  id: '34feb2ef-a098-4b23-9238-93bfa64c1d23'\n}\"","value":{"createdAt":1688278440,"expireIn":1688364840,"file_name":"Screenshot (27).png","id":"34feb2ef-a098-4b23-9238-93bfa64c1d23","path":"1688278440_Screenshot (27).png","size":213649},"valueType":"Object"},"stringValue":"\"[\\n' +\n  '  {\\n' +\n  \"    path: '1688278440_Screenshot (27).png',\\n\" +\n  \"    file_name: 'Screenshot (27).png',\\n\" +\n  '    type: undefined,\\n' +\n  '    size: 213649,\\n' +\n  '    createdAt: 1688278440,\\n' +\n  '    expireIn: 1688364840,\\n' +\n  \"    id: '34feb2ef-a098-4b23-9238-93bfa64c1d23'\\n\" +\n  '  }\\n' +\n  ']\"","value":"[\n  {\n    path: '1688278440_Screenshot (27).png',\n    file_name: 'Screenshot (27).png',\n    type: undefined,\n    size: 213649,\n    createdAt: 1688278440,\n    expireIn: 1688364840,\n    id: '34feb2ef-a098-4b23-9238-93bfa64c1d23'\n  }\n]","valueType":"string"}
+error: Operation `users.aggregate()` buffering timed out after 10000ms
+error: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    path: '1688278749_Screenshot (26).png',\n" +
+  "    file_name: 'Screenshot (26).png',\n" +
+  '    type: undefined,\n' +
+  '    size: 365850,\n' +
+  '    createdAt: 1688278749,\n' +
+  '    expireIn: 1688365149,\n' +
+  "    id: '0212f66f-3b15-439f-83dc-395c69167373'\n" +
+  '  }\n' +
+  ']" (type string) at path "details.0" because of "CastError" {"kind":"[string]","path":"details.0","reason":{"kind":"string","message":"Cast to string failed for value \"{\n  path: '1688278749_Screenshot (26).png',\n  file_name: 'Screenshot (26).png',\n  type: undefined,\n  size: 365850,\n  createdAt: 1688278749,\n  expireIn: 1688365149,\n  id: '0212f66f-3b15-439f-83dc-395c69167373'\n}\" (type Object) at path \"details\"","name":"CastError","path":"details","reason":null,"stringValue":"\"{\n  path: '1688278749_Screenshot (26).png',\n  file_name: 'Screenshot (26).png',\n  type: undefined,\n  size: 365850,\n  createdAt: 1688278749,\n  expireIn: 1688365149,\n  id: '0212f66f-3b15-439f-83dc-395c69167373'\n}\"","value":{"createdAt":1688278749,"expireIn":1688365149,"file_name":"Screenshot (26).png","id":"0212f66f-3b15-439f-83dc-395c69167373","path":"1688278749_Screenshot (26).png","size":365850},"valueType":"Object"},"stringValue":"\"[\\n' +\n  '  {\\n' +\n  \"    path: '1688278749_Screenshot (26).png',\\n\" +\n  \"    file_name: 'Screenshot (26).png',\\n\" +\n  '    type: undefined,\\n' +\n  '    size: 365850,\\n' +\n  '    createdAt: 1688278749,\\n' +\n  '    expireIn: 1688365149,\\n' +\n  \"    id: '0212f66f-3b15-439f-83dc-395c69167373'\\n\" +\n  '  }\\n' +\n  ']\"","value":"[\n  {\n    path: '1688278749_Screenshot (26).png',\n    file_name: 'Screenshot (26).png',\n    type: undefined,\n    size: 365850,\n    createdAt: 1688278749,\n    expireIn: 1688365149,\n    id: '0212f66f-3b15-439f-83dc-395c69167373'\n  }\n]","valueType":"string"}
+error: Cast to [string] failed for value "[\n' +
+  '  {\n' +
+  "    path: '1688279942_Screenshot (32).png',\n" +
+  "    file_name: 'Screenshot (32).png',\n" +
+  "    type: 'image/png',\n" +
+  '    size: 97929,\n' +
+  '    createdAt: 1688279942,\n' +
+  '    expireIn: 1688366342,\n' +
+  "    id: '620462c6-a6bb-48d4-9705-abc74c4587c0'\n" +
+  '  }\n' +
+  ']" (type string) at path "details.0" because of "CastError" {"kind":"[string]","path":"details.0","reason":{"kind":"string","message":"Cast to string failed for value \"{\n  path: '1688279942_Screenshot (32).png',\n  file_name: 'Screenshot (32).png',\n  type: 'image/png',\n  size: 97929,\n  createdAt: 1688279942,\n  expireIn: 1688366342,\n  id: '620462c6-a6bb-48d4-9705-abc74c4587c0'\n}\" (type Object) at path \"details\"","name":"CastError","path":"details","reason":null,"stringValue":"\"{\n  path: '1688279942_Screenshot (32).png',\n  file_name: 'Screenshot (32).png',\n  type: 'image/png',\n  size: 97929,\n  createdAt: 1688279942,\n  expireIn: 1688366342,\n  id: '620462c6-a6bb-48d4-9705-abc74c4587c0'\n}\"","value":{"createdAt":1688279942,"expireIn":1688366342,"file_name":"Screenshot (32).png","id":"620462c6-a6bb-48d4-9705-abc74c4587c0","path":"1688279942_Screenshot (32).png","size":97929,"type":"image/png"},"valueType":"Object"},"stringValue":"\"[\\n' +\n  '  {\\n' +\n  \"    path: '1688279942_Screenshot (32).png',\\n\" +\n  \"    file_name: 'Screenshot (32).png',\\n\" +\n  \"    type: 'image/png',\\n\" +\n  '    size: 97929,\\n' +\n  '    createdAt: 1688279942,\\n' +\n  '    expireIn: 1688366342,\\n' +\n  \"    id: '620462c6-a6bb-48d4-9705-abc74c4587c0'\\n\" +\n  '  }\\n' +\n  ']\"","value":"[\n  {\n    path: '1688279942_Screenshot (32).png',\n    file_name: 'Screenshot (32).png',\n    type: 'image/png',\n    size: 97929,\n    createdAt: 1688279942,\n    expireIn: 1688366342,\n    id: '620462c6-a6bb-48d4-9705-abc74c4587c0'\n  }\n]","valueType":"string"}
+error: loginValidate.validate is not a function
+error: Joi is not defined
+error: res is not defined
+error: response is not defined
+error: Cannot read properties of undefined (reading '0')
+error: Cast to Number failed for value "NaN" (type number) at path "expireIn" {"kind":"Number","path":"expireIn","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}
+error: Unexpected token '}'
+error: Operation `users.aggregate()` buffering timed out after 10000ms
+error: decodedtoken is not defined
+error: decodedtoken is not defined
+error: decodedtoken is not defined
+error: user is not defined
+error: user is not defined
+error: isExist is not a function
+error: data and salt arguments required
+error: Unexpected token ')'
+error: Unexpected token '}'
+error: Unexpected token '<'
+error: path must be absolute or specify root to res.sendFile
+error: path must be absolute or specify root to res.sendFile
+error: path must be absolute or specify root to res.sendFile
+error: path must be absolute or specify root to res.sendFile
+error: path must be absolute or specify root to res.sendFile
+error: path must be absolute or specify root to res.sendFile
+error: Unexpected token ';'
+error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+error: Cannot read properties of undefined (reading 'path')
+error: Cannot read properties of undefined (reading 'path')
+error: userModel is not defined
+error: userModel is not defined
+error: Cannot read properties of undefined (reading 'roles')
+error: Cannot read properties of undefined (reading 'roles')
+error: Cannot read properties of undefined (reading 'roles')
+error: Cannot access 'permission' before initialization
+error: Cannot read properties of undefined (reading 'roles')
+error: Cannot read properties of undefined (reading 'roles')
+error: Cannot read properties of undefined (reading 'roles')
+error: Cannot read properties of undefined (reading 'roles')
+error: token is not defined
+error: token is not defined
+error: Operation `users.findOne()` buffering timed out after 10000ms
+error: getaddrinfo ENOTFOUND ac-avkqsyo-shard-00-02.c66r9h3.mongodb.net {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":"7fffffff000000000000009b","maxSetVersion":4,"servers":{},"setName":"atlas-q4dk6x-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}}
+error: Operation `users.findOne()` buffering timed out after 10000ms
+error: getaddrinfo ENOTFOUND ac-avkqsyo-shard-00-01.c66r9h3.mongodb.net {"reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":"7fffffff000000000000009b","maxSetVersion":4,"servers":{},"setName":"atlas-q4dk6x-shard-0","stale":false,"type":"ReplicaSetNoPrimary"}}

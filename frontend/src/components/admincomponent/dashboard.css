@@ -1,0 +1,80 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+  .user-card {
+    overflow:auto;
+    width: 480px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  p{
+    font-weight:800;
+  }
+  .user-card:hover {
+    background-color: lightgray;
+  }
+  
+  .user-info {
+    margin: 5px 0;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .user-card{
+        width:100%
+    }
+  }
+  
+   .custom-select {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow-y: auto;
+  }
+  
+  /* Styling for selected options */
+  .custom-select option:checked {
+    background-color: #e0e0e0;
+    font-weight: bold;
+  }
+  #form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    width:35%;
+    position: relative;
+    left:30%
+}
+  
+  input, select {
+    margin-bottom: 10px;
+    width: 300px !important;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  
+  label {
+    font-weight: bold;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    input, select {
+      width: 100%;
+    }
+  }
+  
